@@ -1,0 +1,34 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background: url(tentscene.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 3em;
+  color: aliceblue;
+}
+.buffer {
+  height: 3rem;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-success {
+  background-color: rgb(62, 129, 82);
+  border-color: rgb(62, 129, 82);
+}
+.btn-success:hover {
+  background-color: rgb(38, 80, 51);
+  border-color: rgb(38, 80, 51);
+  border-width: 4px;
+}
+.btn-xl {
+  padding: 0.5rem 2rem;
+}
